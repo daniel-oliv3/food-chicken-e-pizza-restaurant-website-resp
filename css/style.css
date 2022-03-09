@@ -100,7 +100,7 @@ header .icons #menu-bars {
 /* Search Form/Formulário de pesquisa */
 #search-form {
     position: fixed;
-    top: 0;
+    top: -110%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -110,6 +110,10 @@ header .icons #menu-bars {
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
+}
+
+#search-form.active {
+    top: 0;
 }
 
 #search-form #search-box {
@@ -137,10 +141,17 @@ header .icons #menu-bars {
 }
 
 #search-form label:hover {
-    color: var(--green)
+    color: var(--green);
 }
 
-
+#search-form #close {
+    position: absolute;
+    color: #fff;
+    cursor: pointer;
+    top: 2rem;
+    right: 3rem;
+    font-size: 5rem;
+}
 
 
 
