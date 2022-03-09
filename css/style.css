@@ -82,12 +82,19 @@ header .icons a {
     font-size: 1.7rem;
     color: var(--black);
     border-radius: 50%;
+    background: #eee;
 }
 
+header .icons i:hover,
+header .icons a:hover {
+    color: #fff;
+    background: var(--green);
+    transform: rotate(360deg);
+}
 
-
-
-
+header .icons #menu-bars {
+    display: none;
+}
 
 
 
@@ -136,20 +143,42 @@ header .icons a {
 
 
 /* ======= Responsive/Responsividade  */
-@media (max-width:991px){
+@media (max-width: 991px){
 
-    
+    html {
+        font-size: 55%;
+    }    
 
+    header {
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    header .icons #menu-bars {
+        display: inline-block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        padding: 1rem;
+    }
+
+    header .navbar a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
 
 }
 
-@media (max-width:768px){
-
-    
-
-}
-
-@media (max-width:450px){
+@media (max-width: 450px){
 
     
 
