@@ -26,11 +26,13 @@ html{
     scroll-behavior: smooth;
 }
 
+section {
+    padding: 2rem 9%;
+}
 
-
-
-
-
+section:nth-child(even) {
+    background: #eee;
+}
 
 
 /* ======= Header Section/Seção do cabeçalho ======= */
@@ -155,16 +157,26 @@ header .icons #menu-bars {
 
 
 
+/* ======= Home Section/Seção Inicial ======= */
+.home .home-slider .slide {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 9rem;
+}
 
+.home .home-slider .slide .content {
+    flex: 1 1 45rem;
+}
 
+.home .home-slider .slide .image {
+    flex: 1 1 45rem;
+}
 
-
-
-
-
-
-
-
+.home .home-slider .slide .image img {
+    width: 100%;
+}
 
 
 /**/
