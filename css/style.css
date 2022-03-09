@@ -167,20 +167,30 @@ header .icons #menu-bars {
         right: 0;
         background: #fff;
         border-top: .1rem solid rgba(0,0,0,.2);
+        border-bottom: .1rem solid rgba(0,0,0,.2);
         padding: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
     header .navbar a {
         display: block;
         padding: 1.5rem;
-        margin: 1rem 0;
+        margin: 1rem;
+        font-size: 2rem;
+        background: #eee;
     }
 
 }
 
 @media (max-width: 450px){
 
-    
+    html {
+        font-size: 50%;
+    }  
 
 }
 
