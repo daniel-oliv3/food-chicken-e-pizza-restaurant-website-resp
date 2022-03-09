@@ -7,7 +7,7 @@ menu.onclick = () =>{
   navbar.classList.toggle('active');
 }
 
-/**/
+/*Search btn toggle*/
 menu.onscroll = () =>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');

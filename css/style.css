@@ -225,12 +225,16 @@ header .icons #menu-bars {
         background: #eee;
     }
 
+    #search-form #search-box {
+        width: 90%;
+    }
 }
 
 @media (max-width: 450px){
 
     html {
         font-size: 50%;
+        margin: 0 1rem;
     }  
 
 }
