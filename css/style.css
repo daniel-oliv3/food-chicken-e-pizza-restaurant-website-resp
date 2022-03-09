@@ -178,6 +178,34 @@ header .icons #menu-bars {
     width: 100%;
 }
 
+.home .home-slider .slide .content span {
+    color: var(--green);
+    font-size: 2.5rem;
+}
+
+.home .home-slider .slide .content h3 {
+    color: var(--black);
+    font-size: 7rem;
+}
+
+.home .home-slider .slide .content p {
+    color: var(--light-color);
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**/
 
